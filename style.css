@@ -1,0 +1,113 @@
+body {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.pagi {
+  background: url("./img/bgpagi.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+.siang {
+  background: url("./img/bgsiang.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+.sore {
+  background: url("./img/bgsore.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+.senja {
+  background: url("./img/bgsenja.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+.malam {
+  background: url("./img/bg.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+* {
+  font-family: "Noto Sans Display", sans-serif;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  color: white;
+}
+
+h1 {
+  font-family: "Noto Sans Display", sans-serif;
+  font-weight: 200;
+  font-size: 32px;
+}
+
+h1#jam {
+  font-family: "Noto Sans Display", sans-serif;
+  font-weight: 200;
+  font-size: 100px;
+}
+
+.jam {
+  margin: 5rem 0 2rem 0;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  margin: 5vh auto;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+
+.container:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form-item {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  margin: 5px auto;
+  align-items: center;
+}
+input {
+  background: transparent;
+  width: 85%;
+  height: 30px;
+  outline: none;
+  border: none;
+  margin: auto;
+  color: white;
+  font-size: 17px;
+}
+::placeholder,
+:-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
